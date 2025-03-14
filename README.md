@@ -12,8 +12,13 @@ Alternatively, you can install the following packages individually:
 
 ## Features
 **Data Preprocessing**: Handling missing values, feature scaling, and encoding categorical variables
+
 **Exploratory Data Analysis**: Visualizing data distributions and correlations
+
 **Feature Engineering**: Creating new features to improve model performance
+
 **Model Selection**: Comparing multiple machine learning algorithms
+
 **Hyperparameter Tuning**: Optimizing model parameters for better results
+
 **Model Evaluation**: Using various metrics to assess model performance
