@@ -73,6 +73,32 @@ In this project, Forest Fire Index (FWI) was estimated using Algerian forest fir
 - The feature importance analysis showed that features such as 'isi' and 'bui' are the most effective factors on the FWI estimation.
 
 
+### Model Comparison and Interpretation of Results:
+
+- The multiple linear regression model showed better overall performance than the decision tree regression.
+
+- Error distribution plots showed the distribution of prediction errors for both models and provided information about the strengths and weaknesses of the models.
+
+- Comparison of the actual and predicted FWI values ​​provided the opportunity to visually evaluate the prediction accuracy of the models.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
