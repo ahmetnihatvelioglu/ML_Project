@@ -50,7 +50,27 @@ In this project, Forest Fire Index (FWI) was estimated using Algerian forest fir
 
   Categorical columns were converted to numerical data.
 
+### Model Performance:
 
+**Multiple Linear Regression:**
+
+- MSE: 0.3554 and R²: 0.9883 values ​​were obtained in the test dataset. This shows that the model can predict the FWI value with high accuracy.
+
+- The MSE value obtained with Cross-Validation was found to be 2.3056, which supports the good overall performance of the model.
+
+- Statistical significance tests (OLS model summary) showed that the model was generally significant, but it was determined that some independent variables (e.g., 'temperature', 'rh', 'ws') did not make statistically significant contributions.
+
+- Confidence interval analysis showed how accurate the model's predictions were at a certain confidence level.
+
+**Decision Tree Regression:**
+
+- MSE: 2.2878 and R²: 0.9245 values ​​were obtained in the test dataset. This indicates a lower performance compared to multiple linear regression.
+
+- The MSE value obtained by cross-validation was found to be 3.6692, which suggests that the model tends to overfit.
+
+- While it shows excellent performance on the training data (MSE: 0.0000, R²: 1.0000), it shows a lower performance on the test data, indicating an overfitting problem.
+
+- The feature importance analysis showed that features such as 'isi' and 'bui' are the most effective factors on the FWI estimation.
 
 
 
