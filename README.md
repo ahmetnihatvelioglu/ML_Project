@@ -32,3 +32,32 @@ The following machine learning models were implemented and evaluated:
 - Linear Regression
 
 - Decision Trees
+
+
+## Results
+
+In this project, Forest Fire Index (FWI) was estimated using Algerian forest fires dataset. Our aim is to accurately estimate the FWI value by analyzing the environmental factors affecting fire risk. In this direction, multiple linear regression and decision tree regression models were trained and their performances were compared.
+
+### Data Preprocessing and Key Findings:
+
+- The dataset was subjected to various pre-processing steps such as cleaning missing values ​​and converting categorical variables to numerical format.
+
+- Correlation analysis revealed the relationships between the features and identified the key factors associated with FWI.
+
+- Feature Engineering:
+
+  The columns 'day', 'month' and 'year' were removed as they were unnecessary for the analysis.
+
+  Categorical columns were converted to numerical data.
+
+
+
+
+
+
+
+
+
+
+
+
